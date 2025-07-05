@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+
+/* Apply Outfit font globally */
+* {
+  font-family: 'Outfit', sans-serif;
+}
+
+/* Active link styling (for NavLink) */
+.active {
+  background-color: rgb(202, 239, 202); /* Light green */
+  border-color: aquamarine;             /* Border highlight */
+  font-weight: 600;                     /* Optional: makes active state stand out more */
+}
+
+select,input,textarea{
+    border: 1px solid bisque;
+    outline-color:red;
+    border-radius: 4px;
+}
